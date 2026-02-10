@@ -1,5 +1,37 @@
-This dataset represents a Traffic Management System for the Chennai Central region, Tamil Nadu. It contains 1000 structured traffic records collected across multiple major roads and junctions. The dataset is designed to simulate real-world urban traffic conditions and supports analysis related to vehicle movement, congestion, road conditions, and traffic rule compliance.
+This project uses a region-specific traffic management dataset focused exclusively on the Chennai Central area, Tamil Nadu.
 
-Each record includes detailed information such as vehicle type, speed, lane usage, traffic signal status, congestion level, weather conditions, and accident reports. The dataset does not include timestamp data, making it suitable for region-based traffic analysis without time dependency.
+The dataset is designed to support traffic analysis, congestion assessment, violation monitoring, and road condition evaluation within a single metropolitan region, enabling detailed urban traffic insights rather than broad multi-city or state-level comparisons.
 
-This dataset can be effectively used for DBMS projects, traffic analytics, smart city research, visualization dashboards, and machine learning model development. It provides a realistic foundation for studying traffic patterns, identifying congestion-prone areas, and designing intelligent traffic management solutions.
+Geographic Scope
+
+State: Tamil Nadu
+
+City: Chennai
+
+Region: Chennai Central
+
+Coverage: 1000 traffic records across major roads and junctions
+
+Granularity: Road-level and junction-level traffic observations
+
+Examples: Anna Salai, EVR Periyar Salai, Poonamallee High Road, Wall Tax Road
+
+This localized focus allows micro-level traffic behavior analysis, which is not achievable using generalized or state-wide datasets.
+
+Dataset Size
+
+Number of rows: 1000
+
+Number of columns: 15
+
+File format: Excel (.xlsx)
+
+File name: Traffic_Management_Dataset_Chennai_NoTimestamp.xlsx
+
+Data Characteristics
+
+The dataset is synthetically generated but realistic, designed to reflect real-world urban traffic behavior.
+
+Values are constrained within practical city-traffic ranges.
+
+Timestamp data is intentionally excluded to enable region-based analysis independent of time.
